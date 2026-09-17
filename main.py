@@ -1,3 +1,9 @@
+import sys
+import os
+
+# 현재 main.py가 있는 폴더 경로를 모듈 탐색 경로에 추가
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import pandas as pd
 import os
 import customtkinter as ctk

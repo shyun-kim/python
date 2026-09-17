@@ -1,0 +1,7 @@
+build/
+dist/
+*.spec
+*.xlsx
+*.xls
+__pycache__/
+.vscode/
