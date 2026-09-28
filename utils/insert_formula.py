@@ -40,7 +40,7 @@ def insert_formula(save_path):
                 # 첫 노란 행일 때: 2행이 헤더/텍스트면 데이터 시작은 3행부터
                 if last_yellow_row == 1:
                     val_check = ws[f'{k}2'].value
-                    start_row = 3 if (val_check in (None, '') or isinstance(val_check, str)) else 2
+                    start_row = 2 if (val_check in (None, '') or isinstance(val_check, str)) else 2
                 else:
                     start_row = last_yellow_row + 1
 
